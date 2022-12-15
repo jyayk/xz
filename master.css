@@ -1,0 +1,37 @@
+/*--메인페이지 CSS 적용--*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.cont{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(img/home1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.wrap{
+    width: 1100px;
+    /*background-color: rgba(0, 255, 255, 0.315);*/
+}
+.box0{
+    width: 1100px;
+}
+.box1{
+    height: 330px;
+    margin-top: 180px;
+    /*background-color: rgba(109, 62, 190, 0.515);*/
+    display: flex;
+    justify-content: flex-end;
+}
+.box2{
+    height: 144px;
+    margin-top: 100px;
+    /*background-color: rgba(255, 0, 204, 0.401);*/
+    display: flex;
+    justify-content: space-between;
+}
